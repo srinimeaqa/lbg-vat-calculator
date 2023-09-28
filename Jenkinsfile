@@ -3,6 +3,7 @@ pipeline{
  registry = "srinimeaqa/vat-calc"
         registryCredentials = "dockerhub_id"
         dockerImage = ""
+        
     }
     agent any
         stages {
