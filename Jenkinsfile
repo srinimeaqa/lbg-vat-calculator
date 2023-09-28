@@ -1,6 +1,6 @@
 pipeline{
  environment {
- registry = "srinimeaqa/vat-calc"
+ registry = "srinimeaqa/vatcalc"
         registryCredentials = "dockerhub_id"
         dockerImage = ""
     }
